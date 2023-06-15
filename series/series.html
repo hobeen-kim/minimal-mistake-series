@@ -1,0 +1,21 @@
+<div class="series">
+<div class="series-title">{{page.series}}</div>
+{% assign posts_reversed = site.posts | reverse %}
+<ol class="series-ol">
+{% for post in posts_reversed %}
+    {% if post.series == page.series %}
+    <li class="series-li">
+        {% if post.url == page.url %}
+            <strong><a href="{{post.url}}">{{post.title}}</a></strong>
+        {% else %}
+            <a href="{{post.url}}">{{post.title}}</a>
+        {% endif %}
+    </li>
+    {% endif %}
+{% endfor %}
+</ol>
+<span class="collapsible">목록보기</span>
+</div>
+
+<script src="../../assets/js/custom.js"></script>
+
