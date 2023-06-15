@@ -14,9 +14,9 @@ Velog 에서 자주 보이는 시리즈입니다.
 
 ## 파일 다운로드
 
-1. 해당 저장소에서 `series.html` 파일을 다운로드 받아서 `_layout` 디렉토리에 넣어줍니다.
-2. 해당 저장소에서 `custom.js` 파일을 다운로드 받아서 `assets/js` 디렉토리에 넣어줍니다.
-3. 해당 저장소에서 `_custom.scss` 파일을 다운로드 받아서 `_sass/minimal-mistakes` 디렉토리에 넣어줍니다.
+1. 해당 저장소의 `series` 디렉토리에서 `series.html` 파일을 다운로드 받아서 `_layout` 디렉토리에 넣어줍니다.
+2. 해당 저장소의 `series` 디렉토리에서 `custom.js` 파일을 다운로드 받아서 `assets/js` 디렉토리에 넣어줍니다.
+3. 해당 저장소의 `series` 디렉토리에서 `_custom.scss` 파일을 다운로드 받아서 `_sass/minimal-mistakes` 디렉토리에 넣어줍니다.
 
 ## scss 파일 연결
 
@@ -29,15 +29,11 @@ Velog 에서 자주 보이는 시리즈입니다.
 1. `_layout` 디렉토리의 `single.html` 파일을 엽니다.
 2. `<header>` 바로 밑에 아래와 같이 넣어줍니다.
 
-{% raw %}
-
 ```
 {% if page.series %}
 	{% include series.html %}
 {% endif %}
 ```
-
-{% endraw %}
 
 ![image-20230615232957028](images/image-20230615232957028.png)
 
