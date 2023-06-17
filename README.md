@@ -39,6 +39,12 @@ Velog 에서 자주 보이는 시리즈입니다.
 
 **해당 위치는 제목 바로 위입니다. 기호에 따라 위치를 변경할 수 있습니다.**
 
+## custom.js 파일 연결
+
+![image-20230617224340310](../../images/README/image-20230617224340310.png)
+
+`_layouts/default.html` 에 `custom.js` 파일을 사용할 수 있도록 `<script src="../../assets/js/custom.js"></script>` 을 넣어줍니다.
+
 # 사용 방법
 
 ​	front matter 에 series 를 추가해줍니다. 같은 시리즈끼리 시리즈 드롭다운을 만듭니다. 대소문자는 구분해야 합니다.
