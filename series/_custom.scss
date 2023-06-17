@@ -35,8 +35,15 @@
     max-height: 0px;
 }
   
-a:visited{
+.a-series{
     color: #a9dde0;
+}
+.a-series:visited{
+    color: #a9dde0;
+}
+
+.a-series-current{
+    border-bottom: 2px solid #a9dde0;
 }
 
 
